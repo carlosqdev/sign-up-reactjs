@@ -1,7 +1,10 @@
+.Header-wrapper {
+  padding: 0px 1.5rem;
+}
 .Header-title {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 1.8rem;
   line-height: 1.6;
   text-align: center;
 }
@@ -9,8 +12,8 @@
 .Header-copy {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  line-height: 1.7;
-  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.9;
   text-align: center;
 }
 

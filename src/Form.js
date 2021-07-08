@@ -10,8 +10,9 @@ function Form(props) {
       <Input inputType="text" inputPlaceholder="First Name" />
       <Input inputType="text" inputPlaceholder="Last Name" />
       <Input inputType="email" inputPlaceholder="Email" />
-      <Input inputType="password" />
+      <Input inputType="password" inputPlaceholder="Password"/>
       <Button />
+      <p className="Form-copy">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
     </form>
     </>
   )

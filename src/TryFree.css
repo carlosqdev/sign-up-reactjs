@@ -1,8 +1,11 @@
 .TryFree-Wrapper {
   background-color: #6055a5;
-  width: 330px;
+  width: 320px;
   margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
   border-radius: 15px;
+  box-shadow: 1px 7px 4px 1px rgba(0, 0, 0, 0.15);
 }
 .TryFree-Wrapper_copy {
   font-family: 'Poppins', sans-serif;
