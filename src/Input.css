@@ -1,0 +1,17 @@
+.Input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111;
+  height: 20px;
+  padding: 10px;
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+.Input::placeholder {
+  color: #111;
+}
+.Input:hover {
+  border-color: hsl(246, 25%, 77%);
+}

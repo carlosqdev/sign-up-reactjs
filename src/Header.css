@@ -1,0 +1,19 @@
+.Header-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.Header-copy {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.7;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Header-title, .Header-copy {
+  color: #fff;
+}

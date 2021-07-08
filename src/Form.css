@@ -1,0 +1,12 @@
+.Form {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 75%;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
