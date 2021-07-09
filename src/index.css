@@ -1,6 +1,17 @@
+:root {
+  --colorPrimaryBlack: #201f1f;
+  --colorPrimaryWhite: #ffff;
+  --colorPrimaryRed: hsl(0, 100%, 74%);
+  --colorPrimaryGreen: hsl(154, 59%, 51%);
+  --colorAccentBlue: hsl(248, 32%, 49%);
+  --colorNeutralDarkBlue: hsl(249, 10%, 26%);
+  --colorNeutralGrayishBlue: hsl(246, 25%, 77%);
+  --colorNeutralGray: #808080;
+  --font-family: 'Poppins', sans-serif;;
+}
 body {
   font-size: 16px;
-  background-color: hsl(0, 100%, 74%);
+  background-color: var(--colorPrimaryRed);
   background-image: url("./img/bg-intro-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;

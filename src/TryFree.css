@@ -1,5 +1,5 @@
 .TryFree-Wrapper {
-  background-color: #6055a5;
+  background-color: var(--colorAccentBlue);
   width: 320px;
   margin: 0 auto;
   margin-top: 4rem;
@@ -8,12 +8,12 @@
   box-shadow: 1px 7px 4px 1px rgba(0, 0, 0, 0.15);
 }
 .TryFree-Wrapper_copy {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 1.6;
   text-align: center;
-  color: #fff;
+  color: var(--colorPrimaryWhite);
   padding: 20px 30px;
 }
 

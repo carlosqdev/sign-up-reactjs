@@ -1,5 +1,5 @@
 .Form {
-  background-color: #fff;
+  background-color: var(--colorPrimaryWhite);
   margin: 0 auto;
   max-width: 1000px;
   width: 75%;
@@ -12,14 +12,14 @@
 }
 
 .Form-copy {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 0.8rem;
   line-height: 1.9;
   text-align: center;
-  color: hsl(249, 10%, 26%);
+  color: var(--colorNeutralDarkBlue);
 }
 .Form-copy > span {
   font-weight: 700;
-  color: hsl(0, 100%, 74%);
+  color: var(--colorPrimaryRed);
 }

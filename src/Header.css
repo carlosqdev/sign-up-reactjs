@@ -2,7 +2,7 @@
   padding: 0px 1.5rem;
 }
 .Header-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.6;
@@ -10,7 +10,7 @@
 }
 
 .Header-copy {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.9;
@@ -18,5 +18,5 @@
 }
 
 .Header-title, .Header-copy {
-  color: #fff;
+  color: var(--colorPrimaryWhite);
 }
