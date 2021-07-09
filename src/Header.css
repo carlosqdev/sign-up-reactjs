@@ -1,4 +1,7 @@
 .Header-wrapper {
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
   padding: 0px 1.5rem;
 }
 .Header-title {
@@ -19,4 +22,10 @@
 
 .Header-title, .Header-copy {
   color: var(--colorPrimaryWhite);
+}
+
+@media screen and (min-width: 768px) {
+  .Header-title {
+    font-size: 1.9rem;
+  }
 }
