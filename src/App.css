@@ -1,4 +1,16 @@
 .App-wrapper {
+  width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+@media screen and (min-width: 1024px) {
+  .App-wrapper {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 120px 520px;
+    grid-template-areas: "Header TryFree" "Header Form";
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
 }

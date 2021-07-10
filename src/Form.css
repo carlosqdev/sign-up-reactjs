@@ -1,4 +1,5 @@
 .Form {
+  grid-area: Form;
   background-color: var(--colorPrimaryWhite);
   margin: 0 auto;
   max-width: 1000px;
@@ -31,5 +32,11 @@
 @media screen and (min-width: 768px) {
   .Form {
     width: 36%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Form {
+    width: 68%;
+    padding: 40px;
   }
 }

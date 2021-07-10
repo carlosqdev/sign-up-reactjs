@@ -1,6 +1,8 @@
 .TryFree-Wrapper {
+  grid-area: TryFree;
   background-color: var(--colorAccentBlue);
-  width: 320px;
+  max-width: 1000px;
+  width: 86%;
   margin: 0 auto;
   margin-top: 4rem;
   margin-bottom: 3rem;
@@ -16,7 +18,28 @@
   color: var(--colorPrimaryWhite);
   padding: 20px 30px;
 }
-
 .TryFree-Wrapper_copy span {
   font-weight: 700;
+}
+@media screen and (min-width: 425px) {
+  .TryFree-Wrapper {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .TryFree-Wrapper {
+    width: 42%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .TryFree-Wrapper {
+    width: 85%;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .TryFree-Wrapper_copy {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
