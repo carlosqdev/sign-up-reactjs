@@ -34,9 +34,9 @@
     width: 36%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .Form {
-    width: 68%;
-    padding: 40px;
+    width: 77%;
+    padding: 45px;
   }
 }

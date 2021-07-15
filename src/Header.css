@@ -29,16 +29,18 @@
     font-size: 1.9rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .Header-wrapper {
-    max-width: 425px;
+    max-width: 500px;
   }
   .Header-title {
     text-align: start;
-    font-size: 2rem;
+    font-size: 3.1rem;
+    line-height: 1.2;
   }
   .Header-copy {
     text-align: start;
-    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7;
   }
 }

@@ -15,9 +15,9 @@
 .Input:hover {
   border-color: var(--colorNeutralGrayishBlue);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .Input {
-    height: 30px;
-    padding: 12px;
+    height: 35px;
+    padding-left: 30px;
   }
 }

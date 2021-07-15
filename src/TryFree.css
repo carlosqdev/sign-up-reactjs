@@ -31,10 +31,10 @@
     width: 42%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .TryFree-Wrapper {
-    width: 85%;
-    height: 90px;
+    width: 90%;
+    height: 70px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
