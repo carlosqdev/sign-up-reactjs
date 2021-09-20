@@ -3,7 +3,7 @@ import './Button.css';
 
 function Button(){
   return(
-    <button className="Button">CLAIM YOUR FREE TRIAL</button>
+    <button type="submit" className="Button">CLAIM YOUR FREE TRIAL</button>
   )
 }
 

@@ -2,8 +2,7 @@
   "name": "sign-up-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carlosqdev.github.io/sign-up-reactjs"
-  ,
+  "homepage": "https://carlosqdev.github.io/sign-up-reactjs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
