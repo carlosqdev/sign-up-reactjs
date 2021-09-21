@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sign-up-reactjs/static/css/main.377b5e0c.chunk.css",
-    "main.js": "/sign-up-reactjs/static/js/main.e8ceee3f.chunk.js",
-    "main.js.map": "/sign-up-reactjs/static/js/main.e8ceee3f.chunk.js.map",
-    "runtime-main.js": "/sign-up-reactjs/static/js/runtime-main.49bca6d9.js",
-    "runtime-main.js.map": "/sign-up-reactjs/static/js/runtime-main.49bca6d9.js.map",
-    "static/js/2.f3ad8851.chunk.js": "/sign-up-reactjs/static/js/2.f3ad8851.chunk.js",
-    "static/js/2.f3ad8851.chunk.js.map": "/sign-up-reactjs/static/js/2.f3ad8851.chunk.js.map",
-    "static/js/3.33e79455.chunk.js": "/sign-up-reactjs/static/js/3.33e79455.chunk.js",
-    "static/js/3.33e79455.chunk.js.map": "/sign-up-reactjs/static/js/3.33e79455.chunk.js.map",
+    "main.css": "/sign-up-reactjs/static/css/main.ae42e545.chunk.css",
+    "main.js": "/sign-up-reactjs/static/js/main.50ebe622.chunk.js",
+    "main.js.map": "/sign-up-reactjs/static/js/main.50ebe622.chunk.js.map",
+    "runtime-main.js": "/sign-up-reactjs/static/js/runtime-main.8c64827d.js",
+    "runtime-main.js.map": "/sign-up-reactjs/static/js/runtime-main.8c64827d.js.map",
+    "static/js/2.c6f43afc.chunk.js": "/sign-up-reactjs/static/js/2.c6f43afc.chunk.js",
+    "static/js/2.c6f43afc.chunk.js.map": "/sign-up-reactjs/static/js/2.c6f43afc.chunk.js.map",
+    "static/js/3.9a4effc1.chunk.js": "/sign-up-reactjs/static/js/3.9a4effc1.chunk.js",
+    "static/js/3.9a4effc1.chunk.js.map": "/sign-up-reactjs/static/js/3.9a4effc1.chunk.js.map",
     "index.html": "/sign-up-reactjs/index.html",
-    "static/css/main.377b5e0c.chunk.css.map": "/sign-up-reactjs/static/css/main.377b5e0c.chunk.css.map",
-    "static/js/2.f3ad8851.chunk.js.LICENSE.txt": "/sign-up-reactjs/static/js/2.f3ad8851.chunk.js.LICENSE.txt",
+    "static/css/main.ae42e545.chunk.css.map": "/sign-up-reactjs/static/css/main.ae42e545.chunk.css.map",
+    "static/js/2.c6f43afc.chunk.js.LICENSE.txt": "/sign-up-reactjs/static/js/2.c6f43afc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/sign-up-reactjs/static/media/bg-intro-mobile.02ce3982.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49bca6d9.js",
-    "static/js/2.f3ad8851.chunk.js",
-    "static/css/main.377b5e0c.chunk.css",
-    "static/js/main.e8ceee3f.chunk.js"
+    "static/js/runtime-main.8c64827d.js",
+    "static/js/2.c6f43afc.chunk.js",
+    "static/css/main.ae42e545.chunk.css",
+    "static/js/main.50ebe622.chunk.js"
   ]
 }
