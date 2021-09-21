@@ -12,8 +12,7 @@
   color: var(--colorPrimaryWhite);
   box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.15);
 }
-.Button:hover {
-  transition: .5s ease-in-out;
-  background-color: var(--colorPrimaryRed);
-  border: 0.5px solid var(colorNeutralGrayishBlue);
+.Button:active {
+  transition: transform .4s ease-in-out;
+  transform: scale(.9);
 }

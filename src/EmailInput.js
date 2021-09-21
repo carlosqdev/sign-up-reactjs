@@ -1,23 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { FormContext } from "./Form";
 import './Input.css';
 
 function EmailInput() {
-  const [email, setEmail] = useState("");
+  const context = useContext(FormContext);
   const [style, setStyle] = useState("Input");
 
   useEffect(() => {
-    if (email === "") {
+    if (context.email === "") {
       setStyle("Input error");
     } else {
       setStyle("Input");
     }
-  }, [email]);
+  }, [context.email]);
 
   return (
     <input
-      value={email}
+      value={context.email}
       onChange={(event) => {
-        setEmail(event.target.value);
+        context.setEmail(event.target.value);
       }}
       className={style}
       type="email"

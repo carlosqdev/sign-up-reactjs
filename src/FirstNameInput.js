@@ -1,23 +1,25 @@
-import React, { useState, useEffect } from "react";
-import './Input.css';
+import React, { useState, useEffect, useContext } from "react";
+import { FormContext } from "./Form";
 
-function FirstNameInput() {
-  const [firstName, setFirstName] = useState("");
+import "./Input.css";
+
+function FirstNameInput(props) {
   const [style, setStyle] = useState("Input");
+  const context = useContext(FormContext);
 
   useEffect(() => {
-    if (firstName === "") {
+    if (context.firstName === "") {
       setStyle("Input error");
     } else {
       setStyle("Input");
     }
-  }, [firstName]);
+  }, [context.firstName]);
 
   return (
     <input
-      value={firstName}
+      value={context.firstName}
       onChange={(event) => {
-        setFirstName(event.target.value);
+        context.setFirstName(event.target.value);
       }}
       className={style}
       type="text"

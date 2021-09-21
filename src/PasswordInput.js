@@ -1,23 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { FormContext } from "./Form";
 import './Input.css';
 
 function PasswordInput() {
-  const [password, setPassword] = useState("");
+  const context = useContext(FormContext);
   const [style, setStyle] = useState("Input");
 
   useEffect(() => {
-    if (password === "") {
+    if (context.password === "") {
       setStyle("Input error");
     } else {
       setStyle("Input");
     }
-  }, [password]);
+  }, [context.password]);
 
   return (
     <input
-      value={password}
+      value={context.password}
       onChange={(event) => {
-        setPassword(event.target.value);
+        context.setPassword(event.target.value);
       }}
       className={style}
       type="password"
