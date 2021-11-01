@@ -12,7 +12,7 @@ Sign up reactjs es una single page aplication, para registrarse a una prueba gra
 
 ## 💻 Instalación (Getting started).
 1. Clona este repositorio `git clone https://github.com/carlosqdev/sign-up-reactjs.git` presiona tecla enter.
-2. Ve a la carpeta del proyecto `cd sign-up-reactjs.git`
+2. Ve a la carpeta del proyecto `cd sign-up-reactjs`
 3. Instalar dependencias `npm install`
 
 ## 📜 Scripts en package.json (ejecutar desde terminal).
